@@ -1,0 +1,58 @@
+body{
+	margin:0;
+}
+section{
+	height: 100vh;		
+	background: #666;
+	position:relative;
+	overflow: hidden;
+}
+.section_1{
+	background-image: url(taxi-street-manhattan-new.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.header_text,.text{
+	font-weight:bold;
+	font-family:"Arial",sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	display:inline-block;
+	width:440px;
+	height:40px;
+	position:absolute;
+	top:50%;left:50%;
+	margin-left:-220px;
+	margin-top:-20px;
+	z-index: 999999;
+}
+.text{
+	text-align:left;
+	margin-left:-220px;
+	margin-top:-650px;
+}
+.section_2 .header_text{
+	top:20%;
+}
+.section_2 img{
+	position:absolute;
+	top:-350px;
+	width:100%;
+	heigth:100vh;
+}
+.section_3 img{
+	position:absolute;
+	top:-550px;
+	width:100%;
+	heigth:100vh;
+}
+.section_1 a,.section_2 a{
+	text-decoration:none;
+	display:inline-block;
+	widht:100px;
+	color:#ffffff;
+}
+.section_1 a:hover..section_2 a:hover{
+	color:#eee;
+}
